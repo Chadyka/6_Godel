@@ -17,7 +17,7 @@ public class Main {
         arrayList.add("D");
 
         long arrayAddTime = System.nanoTime();
-        System.out.println("ArrayList added 4 elements in: " + (arrayAddTime - startTime) + " nanoseconds");
+        System.out.println("ArrayList added 4 elements in:  " + (arrayAddTime - startTime) + " nanoseconds");
         startTime = System.nanoTime();
 
         linkedList.add("A");
@@ -37,7 +37,7 @@ public class Main {
         String dArray = arrayList.get(3);
 
         long arrayQueryTime = System.nanoTime();
-        System.out.println("ArrayList queried 4 elements in: " + (arrayQueryTime - startTime) + " nanoseconds");
+        System.out.println("ArrayList queried 4 elements in:  " + (arrayQueryTime - startTime) + " nanoseconds");
         startTime = System.nanoTime();
 
         String aLinked = linkedList.get(0);
@@ -53,7 +53,7 @@ public class Main {
         Collections.sort(arrayList);
 
         long arraySortTime = System.nanoTime();
-        System.out.println("ArrayList sorted 4 elements in: " + (arraySortTime - startTime) + " nanoseconds");
+        System.out.println("ArrayList sorted 4 elements in:  " + (arraySortTime - startTime) + " nanoseconds");
         startTime = System.nanoTime();
 
         Collections.sort(linkedList);
@@ -82,7 +82,7 @@ public class Main {
         arrayList.remove("D");
 
         long arrayRemoveTime = System.nanoTime();
-        System.out.println("ArrayList removed 4 elements in: " + (arrayRemoveTime - startTime) + " nanoseconds");
+        System.out.println("ArrayList removed 4 elements in:  " + (arrayRemoveTime - startTime) + " nanoseconds");
         startTime = System.nanoTime();
 
         linkedList.remove("A");
